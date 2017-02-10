@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433BA9BB19BDD01500972F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BA9BA19BDD01500972F1D /* Foundation.framework */; };
+		433BA9BD19BDD01500972F1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BA9BC19BDD01500972F1D /* CoreGraphics.framework */; };
+		433BA9BF19BDD01500972F1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BA9BE19BDD01500972F1D /* UIKit.framework */; };
+		433BA9C519BDD01500972F1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 433BA9C319BDD01500972F1D /* InfoPlist.strings */; };
+		433BA9C719BDD01500972F1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BA9C619BDD01500972F1D /* main.m */; };
+		433BA9CB19BDD01500972F1D /* rbuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BA9CA19BDD01500972F1D /* rbuAppDelegate.m */; };
+		433BA9CE19BDD01500972F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BA9CC19BDD01500972F1D /* Main.storyboard */; };
+		433BA9D119BDD01500972F1D /* rbuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BA9D019BDD01500972F1D /* rbuViewController.m */; };
+		433BA9D319BDD01500972F1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433BA9D219BDD01500972F1D /* Images.xcassets */; };
+		433BA9DA19BDD01600972F1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BA9D919BDD01600972F1D /* XCTest.framework */; };
+		433BA9DB19BDD01600972F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BA9BA19BDD01500972F1D /* Foundation.framework */; };
+		433BA9DC19BDD01600972F1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BA9BE19BDD01500972F1D /* UIKit.framework */; };
+		433BA9E419BDD01600972F1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 433BA9E219BDD01600972F1D /* InfoPlist.strings */; };
+		433BA9E619BDD01600972F1D /* ErmineMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BA9E519BDD01600972F1D /* ErmineMailTests.m */; };
+		433BA9F419BDDBF700972F1D /* rbuSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BA9F319BDDBF700972F1D /* rbuSettingsView.m */; };
+		433BAA8C19BDDE1300972F1D /* aol.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6119BDDE1300972F1D /* aol.png */; };
+		433BAA8D19BDDE1300972F1D /* Aol54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6219BDDE1300972F1D /* Aol54x54.png */; };
+		433BAA8E19BDDE1300972F1D /* attachment_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6319BDDE1300972F1D /* attachment_icon.png */; };
+		433BAA8F19BDDE1300972F1D /* attacment_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6419BDDE1300972F1D /* attacment_icon.png */; };
+		433BAA9019BDDE1300972F1D /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6519BDDE1300972F1D /* back_button.png */; };
+		433BAA9119BDDE1300972F1D /* body_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6619BDDE1300972F1D /* body_bg.png */; };
+		433BAA9219BDDE1300972F1D /* deleted_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6719BDDE1300972F1D /* deleted_icon.png */; };
+		433BAA9319BDDE1300972F1D /* destination_adress_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6819BDDE1300972F1D /* destination_adress_bg.png */; };
+		433BAA9419BDDE1300972F1D /* draft_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6919BDDE1300972F1D /* draft_icon.png */; };
+		433BAA9519BDDE1300972F1D /* gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6A19BDDE1300972F1D /* gmail.png */; };
+		433BAA9619BDDE1300972F1D /* gmail54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6B19BDDE1300972F1D /* gmail54x54.png */; };
+		433BAA9719BDDE1300972F1D /* go_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6C19BDDE1300972F1D /* go_button.png */; };
+		433BAA9819BDDE1300972F1D /* hotmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6D19BDDE1300972F1D /* hotmail.png */; };
+		433BAA9919BDDE1300972F1D /* hello54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6E19BDDE1300972F1D /* hello54x54.png */; };
+		433BAA9A19BDDE1300972F1D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA6F19BDDE1300972F1D /* logo.png */; };
+		433BAA9B19BDDE1300972F1D /* mailru.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7019BDDE1300972F1D /* mailru.png */; };
+		433BAA9C19BDDE1300972F1D /* mail54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7119BDDE1300972F1D /* mail54x54.png */; };
+		433BAA9D19BDDE1300972F1D /* main_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7219BDDE1300972F1D /* main_bg.png */; };
+		433BAA9E19BDDE1300972F1D /* menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7319BDDE1300972F1D /* menu_button.png */; };
+		433BAA9F19BDDE1300972F1D /* menu_line_long.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7419BDDE1300972F1D /* menu_line_long.png */; };
+		433BAAA019BDDE1300972F1D /* menu_line_short.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7519BDDE1300972F1D /* menu_line_short.png */; };
+		433BAAA119BDDE1300972F1D /* menupage_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7619BDDE1300972F1D /* menupage_bg.png */; };
+		433BAAA219BDDE1300972F1D /* navigation_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7719BDDE1300972F1D /* navigation_bg.png */; };
+		433BAAA319BDDE1300972F1D /* new_email_area.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7819BDDE1300972F1D /* new_email_area.png */; };
+		433BAAA419BDDE1300972F1D /* new_email_service_area.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7919BDDE1300972F1D /* new_email_service_area.png */; };
+		433BAAA519BDDE1300972F1D /* new_message_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7A19BDDE1300972F1D /* new_message_bg.png */; };
+		433BAAA619BDDE1300972F1D /* outbox_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7B19BDDE1300972F1D /* outbox_icon.png */; };
+		433BAAA719BDDE1300972F1D /* outlook.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7C19BDDE1300972F1D /* outlook.png */; };
+		433BAAA819BDDE1300972F1D /* outlook54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7D19BDDE1300972F1D /* outlook54x54.png */; };
+		433BAAA919BDDE1300972F1D /* photo_add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7E19BDDE1300972F1D /* photo_add_icon.png */; };
+		433BAAAA19BDDE1300972F1D /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA7F19BDDE1300972F1D /* search.png */; };
+		433BAAAB19BDDE1300972F1D /* send_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8019BDDE1300972F1D /* send_button.png */; };
+		433BAAAC19BDDE1300972F1D /* sent_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8119BDDE1300972F1D /* sent_icon.png */; };
+		433BAAAD19BDDE1300972F1D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8219BDDE1300972F1D /* settings.png */; };
+		433BAAAE19BDDE1300972F1D /* settings54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8319BDDE1300972F1D /* settings54x54.png */; };
+		433BAAAF19BDDE1300972F1D /* settings_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8419BDDE1300972F1D /* settings_button.png */; };
+		433BAAB019BDDE1300972F1D /* spam_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8519BDDE1300972F1D /* spam_icon.png */; };
+		433BAAB119BDDE1300972F1D /* ukrnet.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8619BDDE1300972F1D /* ukrnet.png */; };
+		433BAAB219BDDE1300972F1D /* ukrnet54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8719BDDE1300972F1D /* ukrnet54x54.png */; };
+		433BAAB319BDDE1300972F1D /* yahoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8819BDDE1300972F1D /* yahoo.png */; };
+		433BAAB419BDDE1300972F1D /* yahoo54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8919BDDE1300972F1D /* yahoo54x54.png */; };
+		433BAAB519BDDE1300972F1D /* yandex.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8A19BDDE1300972F1D /* yandex.png */; };
+		433BAAB619BDDE1300972F1D /* yandex54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = 433BAA8B19BDDE1300972F1D /* yandex54x54.png */; };
+		433BAACD19BEF86600972F1D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAACC19BEF86600972F1D /* Reachability.m */; };
+		433BAAD019BEF8C400972F1D /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BAAC319BEF6A300972F1D /* libMailCore-ios.a */; };
+		433BAAD219BEF8DC00972F1D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433BAAD119BEF8DC00972F1D /* CFNetwork.framework */; };
+		433BAAD919BF083500972F1D /* RBUEmailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAD819BF083500972F1D /* RBUEmailHelper.m */; };
+		433BAAE019BF086600972F1D /* RBUEmailObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAADF19BF086600972F1D /* RBUEmailObject.m */; };
+		433BAAEA19BF446800972F1D /* MailsVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAE919BF446800972F1D /* MailsVCCell.m */; };
+		433BAAEE19BF44D500972F1D /* EmailsSimpleListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAEC19BF44D400972F1D /* EmailsSimpleListTableViewController.m */; };
+		433BAAF219C04ED200972F1D /* DisplayEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAF119C04ED200972F1D /* DisplayEmail.m */; };
+		433BAAFD19C05CFF00972F1D /* MCOCIDURLProtocol.mm in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAF819C05CFF00972F1D /* MCOCIDURLProtocol.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		433BAAFE19C05CFF00972F1D /* MCOMessageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAFA19C05CFF00972F1D /* MCOMessageView.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		433BAAFF19C05CFF00972F1D /* MCTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BAAFC19C05CFF00972F1D /* MCTTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		43725F8919C1B7FC008D8A79 /* newmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 43725F8819C1B7FC008D8A79 /* newmail.png */; };
+		43725F9019C1C23E008D8A79 /* EmailAgentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43725F8F19C1C23E008D8A79 /* EmailAgentsController.m */; };
+		43725F9319C1C2FA008D8A79 /* EmailMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43725F9219C1C2FA008D8A79 /* EmailMenuController.m */; };
+		43725F9919C1C3DC008D8A79 /* EmailComposerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43725F9819C1C3DC008D8A79 /* EmailComposerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		433BA9DD19BDD01600972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BA9AF19BDD01400972F1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433BA9B619BDD01500972F1D;
+			remoteInfo = ErmineMail;
+		};
+		433BAAC019BEF6A300972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		433BAAC219BEF6A300972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		433BAAC419BEF6A300972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		433BAAC619BEF6A300972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		433BAAC819BEF6A300972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		433BAACE19BEF89A00972F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433BA9B719BDD01500972F1D /* ErmineMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErmineMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		433BA9BA19BDD01500972F1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		433BA9BC19BDD01500972F1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		433BA9BE19BDD01500972F1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		433BA9C219BDD01500972F1D /* ErmineMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ErmineMail-Info.plist"; sourceTree = "<group>"; };
+		433BA9C419BDD01500972F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		433BA9C619BDD01500972F1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		433BA9C819BDD01500972F1D /* ErmineMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ErmineMail-Prefix.pch"; sourceTree = "<group>"; };
+		433BA9C919BDD01500972F1D /* rbuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbuAppDelegate.h; sourceTree = "<group>"; };
+		433BA9CA19BDD01500972F1D /* rbuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rbuAppDelegate.m; sourceTree = "<group>"; };
+		433BA9CD19BDD01500972F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		433BA9CF19BDD01500972F1D /* rbuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbuViewController.h; sourceTree = "<group>"; };
+		433BA9D019BDD01500972F1D /* rbuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rbuViewController.m; sourceTree = "<group>"; };
+		433BA9D219BDD01500972F1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		433BA9D819BDD01600972F1D /* ErmineMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErmineMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		433BA9D919BDD01600972F1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		433BA9E119BDD01600972F1D /* ErmineMailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ErmineMailTests-Info.plist"; sourceTree = "<group>"; };
+		433BA9E319BDD01600972F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		433BA9E519BDD01600972F1D /* ErmineMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErmineMailTests.m; sourceTree = "<group>"; };
+		433BA9F219BDDBF700972F1D /* rbuSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbuSettingsView.h; sourceTree = "<group>"; };
+		433BA9F319BDDBF700972F1D /* rbuSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rbuSettingsView.m; sourceTree = "<group>"; };
+		433BAA6119BDDE1300972F1D /* aol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aol.png; sourceTree = "<group>"; };
+		433BAA6219BDDE1300972F1D /* Aol54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aol54x54.png; sourceTree = "<group>"; };
+		433BAA6319BDDE1300972F1D /* attachment_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment_icon.png; sourceTree = "<group>"; };
+		433BAA6419BDDE1300972F1D /* attacment_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attacment_icon.png; sourceTree = "<group>"; };
+		433BAA6519BDDE1300972F1D /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		433BAA6619BDDE1300972F1D /* body_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_bg.png; sourceTree = "<group>"; };
+		433BAA6719BDDE1300972F1D /* deleted_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleted_icon.png; sourceTree = "<group>"; };
+		433BAA6819BDDE1300972F1D /* destination_adress_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination_adress_bg.png; sourceTree = "<group>"; };
+		433BAA6919BDDE1300972F1D /* draft_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draft_icon.png; sourceTree = "<group>"; };
+		433BAA6A19BDDE1300972F1D /* gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmail.png; sourceTree = "<group>"; };
+		433BAA6B19BDDE1300972F1D /* gmail54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmail54x54.png; sourceTree = "<group>"; };
+		433BAA6C19BDDE1300972F1D /* go_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_button.png; sourceTree = "<group>"; };
+		433BAA6D19BDDE1300972F1D /* hotmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotmail.png; sourceTree = "<group>"; };
+		433BAA6E19BDDE1300972F1D /* hello54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello54x54.png; sourceTree = "<group>"; };
+		433BAA6F19BDDE1300972F1D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		433BAA7019BDDE1300972F1D /* mailru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailru.png; sourceTree = "<group>"; };
+		433BAA7119BDDE1300972F1D /* mail54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail54x54.png; sourceTree = "<group>"; };
+		433BAA7219BDDE1300972F1D /* main_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg.png; sourceTree = "<group>"; };
+		433BAA7319BDDE1300972F1D /* menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_button.png; sourceTree = "<group>"; };
+		433BAA7419BDDE1300972F1D /* menu_line_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_line_long.png; sourceTree = "<group>"; };
+		433BAA7519BDDE1300972F1D /* menu_line_short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_line_short.png; sourceTree = "<group>"; };
+		433BAA7619BDDE1300972F1D /* menupage_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menupage_bg.png; sourceTree = "<group>"; };
+		433BAA7719BDDE1300972F1D /* navigation_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_bg.png; sourceTree = "<group>"; };
+		433BAA7819BDDE1300972F1D /* new_email_area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_email_area.png; sourceTree = "<group>"; };
+		433BAA7919BDDE1300972F1D /* new_email_service_area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_email_service_area.png; sourceTree = "<group>"; };
+		433BAA7A19BDDE1300972F1D /* new_message_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_message_bg.png; sourceTree = "<group>"; };
+		433BAA7B19BDDE1300972F1D /* outbox_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outbox_icon.png; sourceTree = "<group>"; };
+		433BAA7C19BDDE1300972F1D /* outlook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outlook.png; sourceTree = "<group>"; };
+		433BAA7D19BDDE1300972F1D /* outlook54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outlook54x54.png; sourceTree = "<group>"; };
+		433BAA7E19BDDE1300972F1D /* photo_add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_add_icon.png; sourceTree = "<group>"; };
+		433BAA7F19BDDE1300972F1D /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		433BAA8019BDDE1300972F1D /* send_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_button.png; sourceTree = "<group>"; };
+		433BAA8119BDDE1300972F1D /* sent_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sent_icon.png; sourceTree = "<group>"; };
+		433BAA8219BDDE1300972F1D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		433BAA8319BDDE1300972F1D /* settings54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings54x54.png; sourceTree = "<group>"; };
+		433BAA8419BDDE1300972F1D /* settings_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_button.png; sourceTree = "<group>"; };
+		433BAA8519BDDE1300972F1D /* spam_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spam_icon.png; sourceTree = "<group>"; };
+		433BAA8619BDDE1300972F1D /* ukrnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ukrnet.png; sourceTree = "<group>"; };
+		433BAA8719BDDE1300972F1D /* ukrnet54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ukrnet54x54.png; sourceTree = "<group>"; };
+		433BAA8819BDDE1300972F1D /* yahoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahoo.png; sourceTree = "<group>"; };
+		433BAA8919BDDE1300972F1D /* yahoo54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahoo54x54.png; sourceTree = "<group>"; };
+		433BAA8A19BDDE1300972F1D /* yandex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yandex.png; sourceTree = "<group>"; };
+		433BAA8B19BDDE1300972F1D /* yandex54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yandex54x54.png; sourceTree = "<group>"; };
+		433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "ErmineMail/mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		433BAACB19BEF86600972F1D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		433BAACC19BEF86600972F1D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		433BAAD119BEF8DC00972F1D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		433BAAD319BF036600972F1D /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../../constants.h; sourceTree = "<group>"; };
+		433BAAD719BF083500972F1D /* RBUEmailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBUEmailHelper.h; path = ../../RBUEmailHelper.h; sourceTree = "<group>"; };
+		433BAAD819BF083500972F1D /* RBUEmailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBUEmailHelper.m; path = ../../RBUEmailHelper.m; sourceTree = "<group>"; };
+		433BAADE19BF086600972F1D /* RBUEmailObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBUEmailObject.h; sourceTree = "<group>"; };
+		433BAADF19BF086600972F1D /* RBUEmailObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBUEmailObject.m; sourceTree = "<group>"; };
+		433BAAE819BF446800972F1D /* MailsVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailsVCCell.h; sourceTree = "<group>"; };
+		433BAAE919BF446800972F1D /* MailsVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailsVCCell.m; sourceTree = "<group>"; };
+		433BAAEB19BF44D400972F1D /* EmailsSimpleListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailsSimpleListTableViewController.h; sourceTree = "<group>"; };
+		433BAAEC19BF44D400972F1D /* EmailsSimpleListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailsSimpleListTableViewController.m; sourceTree = "<group>"; };
+		433BAAF019C04ED200972F1D /* DisplayEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayEmail.h; sourceTree = "<group>"; };
+		433BAAF119C04ED200972F1D /* DisplayEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayEmail.m; sourceTree = "<group>"; };
+		433BAAF719C05CFF00972F1D /* MCOCIDURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOCIDURLProtocol.h; sourceTree = "<group>"; };
+		433BAAF819C05CFF00972F1D /* MCOCIDURLProtocol.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCOCIDURLProtocol.mm; sourceTree = "<group>"; };
+		433BAAF919C05CFF00972F1D /* MCOMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageView.h; sourceTree = "<group>"; };
+		433BAAFA19C05CFF00972F1D /* MCOMessageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCOMessageView.mm; sourceTree = "<group>"; };
+		433BAAFB19C05CFF00972F1D /* MCTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTTableViewCell.h; sourceTree = "<group>"; };
+		433BAAFC19C05CFF00972F1D /* MCTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTTableViewCell.m; sourceTree = "<group>"; };
+		43725F8819C1B7FC008D8A79 /* newmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newmail.png; sourceTree = "<group>"; };
+		43725F8E19C1C23E008D8A79 /* EmailAgentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAgentsController.h; sourceTree = "<group>"; };
+		43725F8F19C1C23E008D8A79 /* EmailAgentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAgentsController.m; sourceTree = "<group>"; };
+		43725F9119C1C2FA008D8A79 /* EmailMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailMenuController.h; sourceTree = "<group>"; };
+		43725F9219C1C2FA008D8A79 /* EmailMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailMenuController.m; sourceTree = "<group>"; };
+		43725F9719C1C3DC008D8A79 /* EmailComposerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailComposerController.h; sourceTree = "<group>"; };
+		43725F9819C1C3DC008D8A79 /* EmailComposerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailComposerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433BA9B419BDD01500972F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BAAD219BEF8DC00972F1D /* CFNetwork.framework in Frameworks */,
+				433BAAD019BEF8C400972F1D /* libMailCore-ios.a in Frameworks */,
+				433BA9BD19BDD01500972F1D /* CoreGraphics.framework in Frameworks */,
+				433BA9BF19BDD01500972F1D /* UIKit.framework in Frameworks */,
+				433BA9BB19BDD01500972F1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BA9D519BDD01600972F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BA9DA19BDD01600972F1D /* XCTest.framework in Frameworks */,
+				433BA9DC19BDD01600972F1D /* UIKit.framework in Frameworks */,
+				433BA9DB19BDD01600972F1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433BA9AE19BDD01400972F1D = {
+			isa = PBXGroup;
+			children = (
+				43725F9A19C1D3BF008D8A79 /* Controllers+Views */,
+				433BAAF619C05CFF00972F1D /* MessageView */,
+				433BAA6019BDDE1300972F1D /* Graphics */,
+				433BAACA19BEF86600972F1D /* Helpers+API */,
+				433BA9C019BDD01500972F1D /* ErmineMail */,
+				433BA9DF19BDD01600972F1D /* ErmineMailTests */,
+				433BA9B919BDD01500972F1D /* Frameworks */,
+				433BA9B819BDD01500972F1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433BA9B819BDD01500972F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433BA9B719BDD01500972F1D /* ErmineMail.app */,
+				433BA9D819BDD01600972F1D /* ErmineMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433BA9B919BDD01500972F1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433BAAD119BEF8DC00972F1D /* CFNetwork.framework */,
+				433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */,
+				433BA9BA19BDD01500972F1D /* Foundation.framework */,
+				433BA9BC19BDD01500972F1D /* CoreGraphics.framework */,
+				433BA9BE19BDD01500972F1D /* UIKit.framework */,
+				433BA9D919BDD01600972F1D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433BA9C019BDD01500972F1D /* ErmineMail */ = {
+			isa = PBXGroup;
+			children = (
+				433BA9C919BDD01500972F1D /* rbuAppDelegate.h */,
+				433BA9CA19BDD01500972F1D /* rbuAppDelegate.m */,
+				433BA9CC19BDD01500972F1D /* Main.storyboard */,
+				433BA9CF19BDD01500972F1D /* rbuViewController.h */,
+				433BA9D019BDD01500972F1D /* rbuViewController.m */,
+				433BA9D219BDD01500972F1D /* Images.xcassets */,
+				433BA9C119BDD01500972F1D /* Supporting Files */,
+			);
+			path = ErmineMail;
+			sourceTree = "<group>";
+		};
+		433BA9C119BDD01500972F1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433BA9C219BDD01500972F1D /* ErmineMail-Info.plist */,
+				433BA9C319BDD01500972F1D /* InfoPlist.strings */,
+				433BA9C619BDD01500972F1D /* main.m */,
+				433BA9C819BDD01500972F1D /* ErmineMail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		433BA9DF19BDD01600972F1D /* ErmineMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				433BA9E519BDD01600972F1D /* ErmineMailTests.m */,
+				433BA9E019BDD01600972F1D /* Supporting Files */,
+			);
+			path = ErmineMailTests;
+			sourceTree = "<group>";
+		};
+		433BA9E019BDD01600972F1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433BA9E119BDD01600972F1D /* ErmineMailTests-Info.plist */,
+				433BA9E219BDD01600972F1D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		433BAA6019BDDE1300972F1D /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				43725F8819C1B7FC008D8A79 /* newmail.png */,
+				433BAA6119BDDE1300972F1D /* aol.png */,
+				433BAA6219BDDE1300972F1D /* Aol54x54.png */,
+				433BAA6319BDDE1300972F1D /* attachment_icon.png */,
+				433BAA6419BDDE1300972F1D /* attacment_icon.png */,
+				433BAA6519BDDE1300972F1D /* back_button.png */,
+				433BAA6619BDDE1300972F1D /* body_bg.png */,
+				433BAA6719BDDE1300972F1D /* deleted_icon.png */,
+				433BAA6819BDDE1300972F1D /* destination_adress_bg.png */,
+				433BAA6919BDDE1300972F1D /* draft_icon.png */,
+				433BAA6A19BDDE1300972F1D /* gmail.png */,
+				433BAA6B19BDDE1300972F1D /* gmail54x54.png */,
+				433BAA6C19BDDE1300972F1D /* go_button.png */,
+				433BAA6D19BDDE1300972F1D /* hotmail.png */,
+				433BAA6E19BDDE1300972F1D /* hello54x54.png */,
+				433BAA6F19BDDE1300972F1D /* logo.png */,
+				433BAA7019BDDE1300972F1D /* mailru.png */,
+				433BAA7119BDDE1300972F1D /* mail54x54.png */,
+				433BAA7219BDDE1300972F1D /* main_bg.png */,
+				433BAA7319BDDE1300972F1D /* menu_button.png */,
+				433BAA7419BDDE1300972F1D /* menu_line_long.png */,
+				433BAA7519BDDE1300972F1D /* menu_line_short.png */,
+				433BAA7619BDDE1300972F1D /* menupage_bg.png */,
+				433BAA7719BDDE1300972F1D /* navigation_bg.png */,
+				433BAA7819BDDE1300972F1D /* new_email_area.png */,
+				433BAA7919BDDE1300972F1D /* new_email_service_area.png */,
+				433BAA7A19BDDE1300972F1D /* new_message_bg.png */,
+				433BAA7B19BDDE1300972F1D /* outbox_icon.png */,
+				433BAA7C19BDDE1300972F1D /* outlook.png */,
+				433BAA7D19BDDE1300972F1D /* outlook54x54.png */,
+				433BAA7E19BDDE1300972F1D /* photo_add_icon.png */,
+				433BAA7F19BDDE1300972F1D /* search.png */,
+				433BAA8019BDDE1300972F1D /* send_button.png */,
+				433BAA8119BDDE1300972F1D /* sent_icon.png */,
+				433BAA8219BDDE1300972F1D /* settings.png */,
+				433BAA8319BDDE1300972F1D /* settings54x54.png */,
+				433BAA8419BDDE1300972F1D /* settings_button.png */,
+				433BAA8519BDDE1300972F1D /* spam_icon.png */,
+				433BAA8619BDDE1300972F1D /* ukrnet.png */,
+				433BAA8719BDDE1300972F1D /* ukrnet54x54.png */,
+				433BAA8819BDDE1300972F1D /* yahoo.png */,
+				433BAA8919BDDE1300972F1D /* yahoo54x54.png */,
+				433BAA8A19BDDE1300972F1D /* yandex.png */,
+				433BAA8B19BDDE1300972F1D /* yandex54x54.png */,
+			);
+			name = Graphics;
+			path = ErmineMail/Graphics;
+			sourceTree = "<group>";
+		};
+		433BAAB919BEF6A100972F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433BAAC119BEF6A300972F1D /* libMailCore.a */,
+				433BAAC319BEF6A300972F1D /* libMailCore-ios.a */,
+				433BAAC519BEF6A300972F1D /* tests */,
+				433BAAC719BEF6A300972F1D /* test-ios.app */,
+				433BAAC919BEF6A300972F1D /* MailCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433BAACA19BEF86600972F1D /* Helpers+API */ = {
+			isa = PBXGroup;
+			children = (
+				433BAAD319BF036600972F1D /* constants.h */,
+				433BAAD719BF083500972F1D /* RBUEmailHelper.h */,
+				433BAAD819BF083500972F1D /* RBUEmailHelper.m */,
+				433BAACB19BEF86600972F1D /* Reachability.h */,
+				433BAACC19BEF86600972F1D /* Reachability.m */,
+				433BAADE19BF086600972F1D /* RBUEmailObject.h */,
+				433BAADF19BF086600972F1D /* RBUEmailObject.m */,
+			);
+			name = "Helpers+API";
+			path = "ErmineMail/Helpers+API";
+			sourceTree = "<group>";
+		};
+		433BAAF619C05CFF00972F1D /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				433BAAF719C05CFF00972F1D /* MCOCIDURLProtocol.h */,
+				433BAAF819C05CFF00972F1D /* MCOCIDURLProtocol.mm */,
+				433BAAF919C05CFF00972F1D /* MCOMessageView.h */,
+				433BAAFA19C05CFF00972F1D /* MCOMessageView.mm */,
+				433BAAFB19C05CFF00972F1D /* MCTTableViewCell.h */,
+				433BAAFC19C05CFF00972F1D /* MCTTableViewCell.m */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		43725F9A19C1D3BF008D8A79 /* Controllers+Views */ = {
+			isa = PBXGroup;
+			children = (
+				433BA9F219BDDBF700972F1D /* rbuSettingsView.h */,
+				433BA9F319BDDBF700972F1D /* rbuSettingsView.m */,
+				433BAAF019C04ED200972F1D /* DisplayEmail.h */,
+				433BAAF119C04ED200972F1D /* DisplayEmail.m */,
+				433BAAEB19BF44D400972F1D /* EmailsSimpleListTableViewController.h */,
+				433BAAEC19BF44D400972F1D /* EmailsSimpleListTableViewController.m */,
+				43725F9719C1C3DC008D8A79 /* EmailComposerController.h */,
+				43725F9819C1C3DC008D8A79 /* EmailComposerController.m */,
+				43725F9119C1C2FA008D8A79 /* EmailMenuController.h */,
+				43725F9219C1C2FA008D8A79 /* EmailMenuController.m */,
+				43725F8E19C1C23E008D8A79 /* EmailAgentsController.h */,
+				43725F8F19C1C23E008D8A79 /* EmailAgentsController.m */,
+				433BAAE819BF446800972F1D /* MailsVCCell.h */,
+				433BAAE919BF446800972F1D /* MailsVCCell.m */,
+			);
+			name = "Controllers+Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433BA9B619BDD01500972F1D /* ErmineMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433BA9E919BDD01600972F1D /* Build configuration list for PBXNativeTarget "ErmineMail" */;
+			buildPhases = (
+				433BA9B319BDD01500972F1D /* Sources */,
+				433BA9B419BDD01500972F1D /* Frameworks */,
+				433BA9B519BDD01500972F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433BAACF19BEF89A00972F1D /* PBXTargetDependency */,
+			);
+			name = ErmineMail;
+			productName = ErmineMail;
+			productReference = 433BA9B719BDD01500972F1D /* ErmineMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		433BA9D719BDD01600972F1D /* ErmineMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433BA9EC19BDD01600972F1D /* Build configuration list for PBXNativeTarget "ErmineMailTests" */;
+			buildPhases = (
+				433BA9D419BDD01600972F1D /* Sources */,
+				433BA9D519BDD01600972F1D /* Frameworks */,
+				433BA9D619BDD01600972F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433BA9DE19BDD01600972F1D /* PBXTargetDependency */,
+			);
+			name = ErmineMailTests;
+			productName = ErmineMailTests;
+			productReference = 433BA9D819BDD01600972F1D /* ErmineMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433BA9AF19BDD01400972F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = rbu;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Roman Bigun";
+				TargetAttributes = {
+					433BA9D719BDD01600972F1D = {
+						TestTargetID = 433BA9B619BDD01500972F1D;
+					};
+				};
+			};
+			buildConfigurationList = 433BA9B219BDD01400972F1D /* Build configuration list for PBXProject "ErmineMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 433BA9AE19BDD01400972F1D;
+			productRefGroup = 433BA9B819BDD01500972F1D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 433BAAB919BEF6A100972F1D /* Products */;
+					ProjectRef = 433BAAB819BEF6A100972F1D /* mailcore2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				433BA9B619BDD01500972F1D /* ErmineMail */,
+				433BA9D719BDD01600972F1D /* ErmineMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		433BAAC119BEF6A300972F1D /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = 433BAAC019BEF6A300972F1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		433BAAC319BEF6A300972F1D /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = 433BAAC219BEF6A300972F1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		433BAAC519BEF6A300972F1D /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = 433BAAC419BEF6A300972F1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		433BAAC719BEF6A300972F1D /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = 433BAAC619BEF6A300972F1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		433BAAC919BEF6A300972F1D /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 433BAAC819BEF6A300972F1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433BA9B519BDD01500972F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BAA9819BDDE1300972F1D /* hotmail.png in Resources */,
+				433BAAAB19BDDE1300972F1D /* send_button.png in Resources */,
+				433BAAAC19BDDE1300972F1D /* sent_icon.png in Resources */,
+				433BAAB419BDDE1300972F1D /* yahoo54x54.png in Resources */,
+				433BAAB319BDDE1300972F1D /* yahoo.png in Resources */,
+				433BAAA319BDDE1300972F1D /* new_email_area.png in Resources */,
+				433BAAA419BDDE1300972F1D /* new_email_service_area.png in Resources */,
+				433BAAAA19BDDE1300972F1D /* search.png in Resources */,
+				433BAA9519BDDE1300972F1D /* gmail.png in Resources */,
+				433BAA9A19BDDE1300972F1D /* logo.png in Resources */,
+				433BAA9319BDDE1300972F1D /* destination_adress_bg.png in Resources */,
+				433BAAB019BDDE1300972F1D /* spam_icon.png in Resources */,
+				433BAA9919BDDE1300972F1D /* hello54x54.png in Resources */,
+				433BAAA719BDDE1300972F1D /* outlook.png in Resources */,
+				433BAAAD19BDDE1300972F1D /* settings.png in Resources */,
+				433BAA9C19BDDE1300972F1D /* mail54x54.png in Resources */,
+				433BAA9219BDDE1300972F1D /* deleted_icon.png in Resources */,
+				433BAAB219BDDE1300972F1D /* ukrnet54x54.png in Resources */,
+				433BA9D319BDD01500972F1D /* Images.xcassets in Resources */,
+				433BAA8F19BDDE1300972F1D /* attacment_icon.png in Resources */,
+				433BAAAF19BDDE1300972F1D /* settings_button.png in Resources */,
+				433BAAA019BDDE1300972F1D /* menu_line_short.png in Resources */,
+				433BAAA219BDDE1300972F1D /* navigation_bg.png in Resources */,
+				433BAA9119BDDE1300972F1D /* body_bg.png in Resources */,
+				433BA9C519BDD01500972F1D /* InfoPlist.strings in Resources */,
+				433BAA9F19BDDE1300972F1D /* menu_line_long.png in Resources */,
+				433BAA9D19BDDE1300972F1D /* main_bg.png in Resources */,
+				433BAAA519BDDE1300972F1D /* new_message_bg.png in Resources */,
+				433BAA9619BDDE1300972F1D /* gmail54x54.png in Resources */,
+				433BAAB619BDDE1300972F1D /* yandex54x54.png in Resources */,
+				433BAAA619BDDE1300972F1D /* outbox_icon.png in Resources */,
+				433BAA9419BDDE1300972F1D /* draft_icon.png in Resources */,
+				433BAAA119BDDE1300972F1D /* menupage_bg.png in Resources */,
+				433BAAAE19BDDE1300972F1D /* settings54x54.png in Resources */,
+				433BAA9B19BDDE1300972F1D /* mailru.png in Resources */,
+				433BAA8D19BDDE1300972F1D /* Aol54x54.png in Resources */,
+				433BAA8E19BDDE1300972F1D /* attachment_icon.png in Resources */,
+				433BAAA819BDDE1300972F1D /* outlook54x54.png in Resources */,
+				433BAAB119BDDE1300972F1D /* ukrnet.png in Resources */,
+				433BAAB519BDDE1300972F1D /* yandex.png in Resources */,
+				43725F8919C1B7FC008D8A79 /* newmail.png in Resources */,
+				433BAA8C19BDDE1300972F1D /* aol.png in Resources */,
+				433BAA9719BDDE1300972F1D /* go_button.png in Resources */,
+				433BAAA919BDDE1300972F1D /* photo_add_icon.png in Resources */,
+				433BAA9019BDDE1300972F1D /* back_button.png in Resources */,
+				433BAA9E19BDDE1300972F1D /* menu_button.png in Resources */,
+				433BA9CE19BDD01500972F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BA9D619BDD01600972F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BA9E419BDD01600972F1D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433BA9B319BDD01500972F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BAAFF19C05CFF00972F1D /* MCTTableViewCell.m in Sources */,
+				433BAAFE19C05CFF00972F1D /* MCOMessageView.mm in Sources */,
+				433BA9CB19BDD01500972F1D /* rbuAppDelegate.m in Sources */,
+				433BAAE019BF086600972F1D /* RBUEmailObject.m in Sources */,
+				433BAAEE19BF44D500972F1D /* EmailsSimpleListTableViewController.m in Sources */,
+				433BA9C719BDD01500972F1D /* main.m in Sources */,
+				43725F9019C1C23E008D8A79 /* EmailAgentsController.m in Sources */,
+				433BAAD919BF083500972F1D /* RBUEmailHelper.m in Sources */,
+				43725F9919C1C3DC008D8A79 /* EmailComposerController.m in Sources */,
+				433BA9F419BDDBF700972F1D /* rbuSettingsView.m in Sources */,
+				43725F9319C1C2FA008D8A79 /* EmailMenuController.m in Sources */,
+				433BA9D119BDD01500972F1D /* rbuViewController.m in Sources */,
+				433BAACD19BEF86600972F1D /* Reachability.m in Sources */,
+				433BAAFD19C05CFF00972F1D /* MCOCIDURLProtocol.mm in Sources */,
+				433BAAEA19BF446800972F1D /* MailsVCCell.m in Sources */,
+				433BAAF219C04ED200972F1D /* DisplayEmail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BA9D419BDD01600972F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BA9E619BDD01600972F1D /* ErmineMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		433BA9DE19BDD01600972F1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433BA9B619BDD01500972F1D /* ErmineMail */;
+			targetProxy = 433BA9DD19BDD01600972F1D /* PBXContainerItemProxy */;
+		};
+		433BAACF19BEF89A00972F1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = 433BAACE19BEF89A00972F1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		433BA9C319BDD01500972F1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433BA9C419BDD01500972F1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		433BA9CC19BDD01500972F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433BA9CD19BDD01500972F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		433BA9E219BDD01600972F1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433BA9E319BDD01600972F1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		433BA9E719BDD01600972F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		433BA9E819BDD01600972F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433BA9EA19BDD01600972F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ErmineMail/ErmineMail-Prefix.pch";
+				INFOPLIST_FILE = "ErmineMail/ErmineMail-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-licucore",
+					"-lc++",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		433BA9EB19BDD01600972F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ErmineMail/ErmineMail-Prefix.pch";
+				INFOPLIST_FILE = "ErmineMail/ErmineMail-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-licucore",
+					"-lc++",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		433BA9ED19BDD01600972F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ErmineMail.app/ErmineMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ErmineMail/ErmineMail-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ErmineMailTests/ErmineMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		433BA9EE19BDD01600972F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ErmineMail.app/ErmineMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ErmineMail/ErmineMail-Prefix.pch";
+				INFOPLIST_FILE = "ErmineMailTests/ErmineMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433BA9B219BDD01400972F1D /* Build configuration list for PBXProject "ErmineMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BA9E719BDD01600972F1D /* Debug */,
+				433BA9E819BDD01600972F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433BA9E919BDD01600972F1D /* Build configuration list for PBXNativeTarget "ErmineMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BA9EA19BDD01600972F1D /* Debug */,
+				433BA9EB19BDD01600972F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433BA9EC19BDD01600972F1D /* Build configuration list for PBXNativeTarget "ErmineMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BA9ED19BDD01600972F1D /* Debug */,
+				433BA9EE19BDD01600972F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 433BA9AF19BDD01400972F1D /* Project object */;
+}
